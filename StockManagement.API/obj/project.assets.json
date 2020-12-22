@@ -8,19 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Mert\\.nuget\\packages\\": {}
+    "C:\\Users\\GraTas Solutions\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mert\\source\\repos\\StockManagement\\StockManagement.API\\StockManagement.API.csproj",
+      "projectUniqueName": "C:\\Users\\GraTas Solutions\\source\\repos\\StockManagement\\StockManagement.API\\StockManagement.API.csproj",
       "projectName": "StockManagement.API",
-      "projectPath": "C:\\Users\\Mert\\source\\repos\\StockManagement\\StockManagement.API\\StockManagement.API.csproj",
-      "packagesPath": "C:\\Users\\Mert\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mert\\source\\repos\\StockManagement\\StockManagement.API\\obj\\",
+      "projectPath": "C:\\Users\\GraTas Solutions\\source\\repos\\StockManagement\\StockManagement.API\\StockManagement.API.csproj",
+      "packagesPath": "C:\\Users\\GraTas Solutions\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GraTas Solutions\\source\\repos\\StockManagement\\StockManagement.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Mert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GraTas Solutions\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

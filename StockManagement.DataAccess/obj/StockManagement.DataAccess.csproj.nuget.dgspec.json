@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mert\\source\\repos\\StockManagement\\StockManagement.DataAccess\\StockManagement.DataAccess.csproj": {}
+    "C:\\Users\\GraTas Solutions\\source\\repos\\StockManagement\\StockManagement.DataAccess\\StockManagement.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mert\\source\\repos\\StockManagement\\StockManagement.DataAccess\\StockManagement.DataAccess.csproj": {
+    "C:\\Users\\GraTas Solutions\\source\\repos\\StockManagement\\StockManagement.DataAccess\\StockManagement.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mert\\source\\repos\\StockManagement\\StockManagement.DataAccess\\StockManagement.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\GraTas Solutions\\source\\repos\\StockManagement\\StockManagement.DataAccess\\StockManagement.DataAccess.csproj",
         "projectName": "StockManagement.DataAccess",
-        "projectPath": "C:\\Users\\Mert\\source\\repos\\StockManagement\\StockManagement.DataAccess\\StockManagement.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Mert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mert\\source\\repos\\StockManagement\\StockManagement.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\GraTas Solutions\\source\\repos\\StockManagement\\StockManagement.DataAccess\\StockManagement.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\GraTas Solutions\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GraTas Solutions\\source\\repos\\StockManagement\\StockManagement.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GraTas Solutions\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +29,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -38,8 +41,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",

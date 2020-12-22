@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using StockManagement.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +26,12 @@ namespace StockManagement
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddDbContext<AppDbContext>(options => 
+                     options.UseSqlServer("Data Source=DESKTOP-DQDB9VR\\SQLEXPRESS;Integrated Security=True;" +
+                                          "Connect Timeout = 30; Encrypt = False; TrustServerCertificate = True;" +
+                                          "ApplicationIntent = ReadWrite; MultiSubnetFailover = False;" +
+                                          "Initial Catalog = StockManagement"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,7 +55,7 @@ namespace StockManagement
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Warehouse}/{action=Index}/{id?}");
             });
         }
     }
